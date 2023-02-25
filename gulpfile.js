@@ -63,7 +63,8 @@ function js(done) {
         src([
             // pull in lib files first so our own code can depend on it
             'assets/js/lib/*.js',
-            'assets/js/*.js'
+            'assets/js/*.js',
+            'assets/js/prism/*.js'
         ], {sourcemaps: true}),
         concat('casper.js'),
         uglify(),

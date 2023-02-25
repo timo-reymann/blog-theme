@@ -2,7 +2,7 @@
   "name": "casper-tr",
   "description": "Blog theme based on Casper",
   "demo": "https://timo-reymann.de",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "engines": {
     "ghost": ">=5.0.0"
   },
