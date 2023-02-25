@@ -2046,7 +2046,7 @@ iframe.instagram-media + script + :not([id]) {
 
 .post-card-content-header-backdrop {
   padding-left: 20%;
-  padding-top: 15rem;
+  padding-top: 30rem;
   padding-bottom: 7.5rem;
   background: rgba(0,0,0,.5);
 }
