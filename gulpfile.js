@@ -83,7 +83,8 @@ function zipper(done) {
             '!dist', '!dist/**',
             '!yarn-error.log',
             '!yarn.lock',
-            '!gulpfile.js'
+            '!gulpfile.js',
+            "assets/sodo-search"
         ]),
         zip(filename),
         dest('dist/')
