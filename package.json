@@ -13,6 +13,7 @@
   },
   "scripts": {
     "dev": "gulp",
+    "release": "gulp release",
     "zip": "gulp zip",
     "test": "gscan .",
     "test:ci": "gscan --fatal --verbose .",
