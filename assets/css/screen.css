@@ -296,6 +296,10 @@ production stylesheet in assets/built/screen.css
   height: 100%;
 }
 
+li.nav-current {
+  color: #d65108;
+}
+
 /* Header styles
 /* ---------------------------------------------------------- */
 
@@ -874,6 +878,9 @@ production stylesheet in assets/built/screen.css
 .post-card-image-link::after {
   content: "";
   display: block;
+}
+
+.post-card-image-link:not(.author-image-card)::after {
   padding-bottom: 55%;
 }
 
@@ -2040,7 +2047,7 @@ iframe.instagram-media + script + :not([id]) {
 .post-card-content-header-backdrop {
   padding-left: 20%;
   padding-top: 15rem;
-  padding-bottom: 3rem;
+  padding-bottom: 7.5rem;
   background: rgba(0,0,0,.5);
 }
 
