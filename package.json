@@ -177,14 +177,14 @@
         "default": "blog",
         "group": "post"
       },
-      "matomo_url": {
+      "umami_url": {
         "type": "text",
         "default": "https://analytics.timo-reymann.de",
         "group": "homepage"
       },
-      "matomo_site_id": {
+      "umami_site_id": {
         "type": "text",
-        "default": "6",
+        "default": "",
         "group": "homepage"
       }
     }
