@@ -13,7 +13,7 @@
 
 ## Features
 
-- Matomo Analytics
+- Umami Analytics
 - remark42
 - jQuery free
 
